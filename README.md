@@ -238,5 +238,5 @@ it_wake_word/
 
 ## Contexto académico
 
-Proyecto de grado **Inclusive Tech** — Fundación Universitaria Konrad Lorenz.
+Proyecto de grado **Panitas: Inclusive Tech** — Fundación Universitaria Konrad Lorenz.
 Sistema domótico accesible compuesto por la palabra de activación (`it_wake_word`), el asistente de voz (`it_ai_assistant`), el sistema de navegación (`it_nav_system`) y el reconocimiento facial, integrados en la aplicación de Unity `InclusiveTech_SmartHome`. Este módulo es el primer eslabón: despierta al asistente cuando el usuario dice "Mía".
