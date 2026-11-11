@@ -1,4 +1,4 @@
-# it_wake_word — detección de la palabra de activación "Mía"
+# it_wake_word: detección de la palabra de activación "Mía"
 
 Microservicio de detección de palabra clave (*wake word*) del proyecto **Inclusive Tech**, un sistema domótico accesible desarrollado como proyecto de grado en la Fundación Universitaria Konrad Lorenz.
 
