@@ -38,12 +38,12 @@ El servicio escucha el micrófono de forma continua y, cuando detecta la palabra
 
 ```mermaid
 flowchart LR
-    mic(["🎙️ Micrófono 16 kHz"]) --> cap["Captura de audio<br/>(hilo aparte)"]
+    mic(["Micrófono 16 kHz"]) --> cap["Captura de audio<br/>(hilo aparte)"]
     cap --> gate{"¿Energía ><br/>umbral?"}
     gate -- No --> idle["No ejecuta el modelo<br/>ahorro de CPU"]
     gate -- Sí --> det["Detector<br/>OpenWakeWord · Mía"]
     det -->|detección| ws["Servidor WebSocket :9000"]
-    ws -->|WAKE_WORD_DETECTED| unity(["🎮 Unity (cliente)"])
+    ws -->|WAKE_WORD_DETECTED| unity(["Unity (cliente)"])
 
     classDef s fill:#1f6feb,stroke:#0b3a8c,color:#fff;
     classDef io fill:#238636,stroke:#116329,color:#fff;
